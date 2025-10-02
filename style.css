@@ -1,0 +1,41 @@
+@font-face {
+    font-family: car;
+    src: url(./sakana/Sakana.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1755230838541-98bd1195d5bf?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-family: car;
+    color: #EFEFED;
+    padding-top: 550px;
+    
+}
+button{
+   margin-right:10px;
+   padding: 20px 40px;
+   color: white;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 10px;
+   font-family: car;
+   
+
+
+}
